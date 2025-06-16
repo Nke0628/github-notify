@@ -1,6 +1,6 @@
 #!/usr/bin/env node
-import * as cdk from 'aws-cdk-lib';
-import { GithubNotifyStack } from '../lib/github-notify-stack';
+import * as cdk from "aws-cdk-lib";
+import { HelloWorldStack } from "../lib/hello-world-stack";
 
 const app = new cdk.App();
-new GithubNotifyStack(app, 'GithubNotifyStack');
+new HelloWorldStack(app, "HelloWorldStack");
